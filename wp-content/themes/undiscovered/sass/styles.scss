@@ -1,0 +1,21 @@
+
+@import "compass";
+@import "compass/reset";
+
+// Import Fonts
+@include font-face("Proxima Bold", font-files("Proxima-Nova-Bold.otf"));
+@include font-face("Proxima Semibold", font-files("Proxima-Nova-Semibold.otf"));
+@include font-face("Proxima Regular", font-files("Proxima-Nova-Regular.otf"));
+@include font-face("Proxima Light", font-files("Proxima-Nova-Light.otf"));
+
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap for Sass
+@import "bootstrap";
+
+@import "font-awesome-compass";
+@import "font-awesome";
