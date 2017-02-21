@@ -1,0 +1,121 @@
+.whyus {
+  padding-top: 125px;
+  padding-bottom: 105px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: Proxima Regular;
+
+  .h1Whyus {
+    font-size: 35px;
+    color: #333333;
+    font-family: Proxima Semibold;
+  }
+
+  .hrWhyus {
+    height: .5em;
+    background-color: #3DA3E0;
+    width: 80px;
+    position: relative;
+    left: 0px;
+    float: left;
+    margin-top: 20px;
+  }
+
+  .h2SubWhyUs {
+    font-size: 16px;
+    padding-top: 0px;
+    color: #666666;
+  }
+  .whyUsContent {
+    padding: 0 5%;
+    .p1 {
+      font-size: 17px;
+      color: #4D4D4D;
+      font-family: Proxima Semibold;
+    }
+    .p2 {
+      font-size: 15px;
+      color: #666666;
+    }
+  }
+
+}
+
+#BelowWhyUs {
+  height: 70vh;
+  width: 100%;
+  background-size:cover;
+  background-position: 100%;
+  display: table;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  .graydientbelow {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 3em 0;
+  }
+  .adjustbabe {
+    display: table;
+  }
+
+  .breathe {
+    position: relative;
+    top: 60px;
+  }
+
+  .Below1 {
+    font-size: 45px;
+    color: #fff;
+    line-height: 1;
+    font-family: Proxima Semibold;
+  }
+
+  hr.belowHr {
+    background-color: #fff;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  p.belowHrP {
+      font-size: 18px;
+      color: #fff;
+      font-family: Proxima Regular;
+  }
+
+  span.belowTitle {
+    font-family: Proxima Regular;
+  }
+
+  .banner-btn {
+    max-width: 215px;
+    width: 100%;
+    padding: 0.5em 0em;
+    margin-top: 2em;
+    background: transparent;
+    font-size: 25px;
+    font-family: inherit;
+    text-transform: capitalize;
+    box-shadow: none;
+    text-shadow: none;
+    border: 2px solid #fff;
+    border-radius: 0;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    margin-top: 50px;
+  }
+
+  .banner-btn:hover  {
+      background: rgba(26, 188, 156, 0.9);
+      border-color: #34D27B;
+      color: #ffffff;
+      cursor: pointer;
+      -webkit-transition: background-color 500ms linear;
+      -moz-transition: background-color 500ms linear;
+      -o-transition: background-color 500ms linear;
+      -ms-transition: background-color 500ms linear;
+      transition: background-color 500ms linear;
+      text-decoration: none;
+      box-shadow: none;
+  }
+}

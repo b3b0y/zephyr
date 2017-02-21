@@ -100,11 +100,11 @@ function undiscovered_scripts() {
 	wp_enqueue_style('undiscovered-fonts',
 		add_query_arg($query_args, "$protocol://fonts.googleapis.com/css" ),
 	array(), null);
-	
-	wp_enqueue_style( 'undiscovered-style', get_stylesheet_uri() );
-	
 
-	wp_enqueue_style( 'undiscovered-theme-settings-css', get_template_directory_uri() . '/custom.css', array(), null ); 
+	wp_enqueue_style( 'undiscovered-style', get_stylesheet_uri() );
+
+
+	wp_enqueue_style( 'undiscovered-theme-settings-css', get_template_directory_uri() . '/custom.css', array(), null );
 	$main_color      = undiscovered_options('primary_color', '#E83D52');
 	$secondary_color = undiscovered_options('secondary_color', '#BE3243');
 	$css = "
@@ -143,7 +143,7 @@ function undiscovered_scripts() {
 			color: {$secondary_color};
 		}
 
-		.entry-content blockquote, 
+		.entry-content blockquote,
 		.format-link .entry-content p:first-child,
 		#main #infinite-handle span,
 		.comment-form .form-submit input {
@@ -201,4 +201,10 @@ function add_logged_out_body_class($classes) {
 		$classes[] = 'logged-out';
 
 	return $classes;
+}
+
+add_theme_support( 'post-thumbnails');
+add_action( 'init', 'my_add_excerpts_to_pages' );
+function my_add_excerpts_to_pages() {
+     add_post_type_support( 'page', 'excerpt' );
 }

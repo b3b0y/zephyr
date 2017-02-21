@@ -6,7 +6,7 @@
 		</div>
 
 		<div class="site-info">
-			<?php printf( __( 'Powered by %s, Designed By %s', 'undiscovered' ), '<a href="http://wordpress.org/" rel="generator">WordPress</a>', '<a href="http://www.themeshaker.com/" rel="designer">Themeshaker</a>' ); ?>
+			<?php printf( __( 'Powered by %s, Designed By %s', 'undiscovered' ), '<a href="http://wordpress.org/" rel="generator">WordPress</a>', '<a href="https://www.facebook.com/mingkayenriquez" rel="designer">Princess</a>' ); ?>
 			<br />
 			<?php printf( __( 'Copyright &copy; %s %s', 'undiscovered' ), date('Y'), get_bloginfo('name') ); ?>
 		</div>

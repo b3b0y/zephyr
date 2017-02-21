@@ -1,0 +1,67 @@
+#banner {
+  height: 100vh;
+  width: 100%;
+  background-size:cover;
+  background-position: 100%;
+  display: table;
+
+  .banner-content{
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 6em;
+    padding-left: 5%;
+    padding-right: 10%;
+
+    .banner-title{
+      margin: 0;
+      margin-bottom: 0;
+      font-size: 55px;
+      font-family: Proxima Regular;
+    }
+    .banner-description {
+      margin: 0;
+      padding: 0;
+      font-size: 16px;
+      font-family: Proxima Regular;
+      line-height: 1;
+
+      p {
+        margin: 0;
+      }
+    }
+
+      .banner-btn {
+        max-width: 215px;
+        width: 100%;
+        padding: 0.5em 0em;
+        margin-top: 2em;
+        background: transparent;
+        font-size: 25px;
+        font-family: inherit;
+        text-transform: capitalize;
+        box-shadow: none;
+        text-shadow: none;
+        border: 2px solid #fff;
+        border-radius: 0;
+        text-align: center;
+        margin: 0 auto;
+        color: #fff;
+        margin-top: 50px;
+      }
+
+    .banner-btn:hover  {
+        background: rgba(26, 188, 156, 0.9);
+        border-color: #34D27B;
+        color: #ffffff;
+        cursor: pointer;
+        -webkit-transition: background-color 500ms linear;
+        -moz-transition: background-color 500ms linear;
+        -o-transition: background-color 500ms linear;
+        -ms-transition: background-color 500ms linear;
+        transition: background-color 500ms linear;
+        text-decoration: none;
+        box-shadow: none;
+    }
+  }
+}

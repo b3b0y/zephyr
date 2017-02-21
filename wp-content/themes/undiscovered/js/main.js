@@ -31,5 +31,21 @@
 
 	$(document).ready(function($) {
 		UndiscoveredTheme.init();
+
+		$('#toggle').click(function() {
+			$(this).toggleClass('active');
+			$('#overlay').toggleClass('open');
+			$('.search-icon').toggleClass('hide')
+		});
+
+
 	});
+
+	$(document).ready(function () {
+    $(".zephyr-header").before($(".zephyr-header").clone().addClass("animateIt"));
+    $(window).on("scroll", function () {
+        $("body").toggleClass("down", ($(window).scrollTop() > 100));
+    });
+});
+
 })(jQuery);
